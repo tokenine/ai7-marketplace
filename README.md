@@ -35,3 +35,10 @@ packs/<pack-name>/
 
 Rules: public repo (fetched anonymously), text companion files only
 (`.md .txt .json .yaml .csv`), each skill ≤100 KB, ≤40 companion files ≤400 KB total.
+
+## Push-size rule
+
+Preview reads GitHub's commit API for HEAD with a 512 KB cap, and that response embeds the
+full patch of every file the commit touches. Keep each push's total added/changed content
+under ~400 KB — split a large pack across several pushes — or installs fail with
+"Could not preview a supported plugin from this repository" until a smaller commit lands.
