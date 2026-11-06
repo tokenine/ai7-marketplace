@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "cloudflare",
+  "version": "1.0.0",
+  "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, Wrangler and cf CLI, Turnstile, web performance, and the Cloudflare MCP server.",
+  "author": { "name": "Cloudflare" },
+  "homepage": "https://github.com/cloudflare/skills",
+  "license": "Apache-2.0",
+  "keywords": ["cloudflare", "workers", "wrangler", "durable-objects", "mcp"]
+}

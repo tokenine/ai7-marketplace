@@ -1,6 +1,15 @@
 {
   "plugins": [
     {
+      "name": "cloudflare",
+      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, Wrangler and cf CLI, Turnstile, sandboxing, web performance, plus the Cloudflare MCP server. Trimmed from cloudflare/skills (Apache-2.0) to install within platform limits.",
+      "keywords": ["cloudflare", "workers", "wrangler", "durable-objects", "mcp", "turnstile"],
+      "category": "Development",
+      "homepage": "https://github.com/cloudflare/skills",
+      "domains": ["cloudflare.com", "developers.cloudflare.com"],
+      "source": "./packs/cloudflare"
+    },
+    {
       "name": "thaifi-wallet",
       "description": "Non-custodial ThaiFi wallet for AI agents: pair an on-chain access key, check balances and spending limits, top up via PromptPay, transfer, pay x402/MPP services, and issue TIP-20 / ERC-1155 tokens with the thaifi CLI.",
       "keywords": ["thaifi", "wallet", "thb", "paththb", "thcfi", "thcoc", "x402", "mpp", "crypto"],
