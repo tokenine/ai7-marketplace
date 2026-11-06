@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    {
+      "name": "thaifi-wallet",
+      "description": "Non-custodial ThaiFi wallet for AI agents: pair an on-chain access key, check balances and spending limits, top up via PromptPay, transfer, pay x402/MPP services, and issue TIP-20 / ERC-1155 tokens with the thaifi CLI.",
+      "keywords": ["thaifi", "wallet", "thb", "paththb", "thcfi", "thcoc", "x402", "mpp", "crypto"],
+      "category": "Finance",
+      "homepage": "https://wallet.thaifi.com",
+      "domains": ["wallet.thaifi.com", "mpp.thaifi.com"],
+      "source": "./packs/thaifi-wallet"
+    }
+  ]
+}

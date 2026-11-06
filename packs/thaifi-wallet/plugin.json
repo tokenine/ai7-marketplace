@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "thaifi-wallet",
+  "version": "1.0.0",
+  "description": "Non-custodial ThaiFi wallet for AI agents: pair an on-chain access key, manage balances, pay x402/MPP services, and issue tokens with the thaifi CLI.",
+  "author": { "name": "Tokenine" },
+  "homepage": "https://wallet.thaifi.com",
+  "license": "Apache-2.0",
+  "keywords": ["thaifi", "wallet", "x402", "mpp"]
+}
